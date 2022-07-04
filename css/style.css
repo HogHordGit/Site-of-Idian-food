@@ -26,6 +26,7 @@ body {
 }
 
 .header_content {
+    display: block;
     background: rgb(255, 255, 255, .7);
     width: 56%;
     position: absolute;
@@ -124,7 +125,55 @@ body {
 .content {
     width: 100%;
     min-height: 500px;
-    background-color: rgb(100, 192, 192);
+}
+
+.flavours {
+    display: block;
+    width: 100%;
+    min-height: 400px;
+    color: #e3e5e6;
+}
+
+.container_text_flavour {
+    display: block;
+    float: left;
+    width: 50%;
+    min-height: 400px;
+}
+
+.text_flavour {
+    display: block;
+    margin: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 17%;
+    width: 80%;
+}
+
+.header_text_flavour {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.text_p_flavour {
+    font-size: 20px;
+    line-height: 180%;
+    text-align: left;
+}
+
+.container_img_flavour {
+    float: left;
+    width: 50%;
+    min-height: 400px;
+}
+
+.img_flavours {
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-right: 20%;
 }
 
 /* footer styles */
