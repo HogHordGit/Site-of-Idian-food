@@ -29,24 +29,26 @@ body {
 
 .header_content {
     display: block;
+    position: relative;
     background: rgb(255, 255, 255, .7);
     width: 56%;
-    position: absolute;
     left: 0;
     right: 0;
     margin: auto;
-    margin-top: 13%;
 }
 
 .logo_in_content {
+    display: block;
+    padding-top: 12%;
     text-align: center;
     font-size: 65px;
     color: #2c3a42;
-    margin-top: 18%;
 }
 
 .description_header {
+    display: block;
     text-align: center;
+    position: initial;
     font-size: 80px;
     color: #ad6c12;
     font-weight: 700;
@@ -55,8 +57,8 @@ body {
 .button_header {
     display: flex;
     justify-content: center;
-    margin-top: 2%;
-    margin-bottom: 18%;
+    padding-top: 20px;
+    padding-bottom: 12%;
 }
 
 .button_header_style {
@@ -132,50 +134,42 @@ body {
 .flavours {
     display: block;
     width: 100%;
-    min-height: 400px;
     color: #e3e5e6;
 }
 
 .container_text_flavour {
     display: block;
+    text-align: left;
     float: left;
     width: 50%;
-    min-height: 400px;
+}
+
+.holding_text_flavours {
+    width: 85%;
+    margin: 22% 12.5%;
+}
+
+.title_flavour {
+    width: 100%;
 }
 
 .text_flavour {
-    display: block;
-    margin: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    margin-top: 17%;
-    width: 80%;
-}
-
-.header_text_flavour {
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-
-.text_p_flavour {
-    font-size: 20px;
     line-height: 180%;
-    text-align: left;
+    font-size: 18px;
 }
 
 .container_img_flavour {
+    display: block;
+    text-align: left;
     float: left;
     width: 50%;
-    min-height: 400px;
 }
 
 .img_flavours {
-    display: block;
     display: flex;
     justify-content: center;
-    margin-top: 10%;
-    margin-right: 20%;
+    margin-top: 70px;
+    margin-right: 5%;
 }
 
 /* footer styles */
